@@ -11,5 +11,5 @@ async function getQuote(){
 window.onload(getQuote())
 function shareX(){
     let twitterShare = `https://twitter.com/intent/tweet?text=${quote.innerHTML}`;
-    window.open(twitterShare, "Twitter Window", "width='600', height='400'");
+    window.open(twitterShare, "Tweet Window", "width='500', height='300'");
 }

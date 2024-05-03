@@ -60,7 +60,7 @@ body{
     text-align: right;
 }
 .container p::before {
-	content: '--';
+	content: '— ';
 }
 .btn-group{
     padding: 10px 0;
